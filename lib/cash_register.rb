@@ -8,9 +8,9 @@ class CashRegister
     @discount = 20 if discount
   end 
   
-  def add_item(item, price, quantity=1)
+  def add_item(item, price, quantity=1) 
+     binding.pry
     @total += price * quantity
-    binding.pry
   end 
   
   def apply_discount
