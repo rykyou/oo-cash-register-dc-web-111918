@@ -7,6 +7,10 @@ class CashRegister
     @total = total
     @discount = 20 if discount
   end 
+  
+  def add_item(item, price)
+    
+  end 
 end 
 
   # attr_accessor :total, :discount
