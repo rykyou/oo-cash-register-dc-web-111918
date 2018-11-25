@@ -1,8 +1,8 @@
 require 'pry'
 
 class CashRegister
-  def initialize(total=0)
-    @total = total
+  def initialize(total)
+    @total = 0
   end 
 end 
 
