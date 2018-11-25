@@ -4,8 +4,10 @@ class CashRegister
   attr_accessor :total, :discount
   
   def initialize(total=0, discount=0)
+    binding.pry
     @total = total
     @discount = 20 if discount
+    binding.pry
   end 
   
   def add_item(item, price, quantity=1)
