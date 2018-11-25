@@ -3,7 +3,7 @@ require 'pry'
 class CashRegister
   def initialize(total=0, discount)
     @total = total
-    @discount = 20
+    @discount = discount
   end 
 end 
 
