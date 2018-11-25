@@ -1,8 +1,9 @@
 require 'pry'
 
 class CashRegister
-  def initialize(total=0)
+  def initialize(total=0, discount)
     @total = total
+    @discount = 
   end 
 end 
 
